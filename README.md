@@ -80,10 +80,10 @@ Once installed, verify it's loaded:
 ### Managing Plugins
 
 ```bash
-/plugin enable matsen-agents      # Enable the plugin
-/plugin disable matsen-agents     # Disable when not needed
-/plugin reload matsen-agents      # Reload after updates
-/plugin remove matsen-agents      # Uninstall
+/plugin enable matsengrp-agents      # Enable the plugin
+/plugin disable matsengrp-agents     # Disable when not needed
+/plugin reload matsengrp-agents      # Reload after updates
+/plugin remove matsengrp-agents      # Uninstall
 ```
 
 For more information about plugins, see the [official Claude Code plugins documentation](https://docs.claude.com/en/docs/claude-code/plugins.md).

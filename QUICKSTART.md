@@ -39,8 +39,8 @@ If you skip this, the plugin will still work but notifications will be silently 
 
 4. **Enable/disable the plugin:**
    ```bash
-   /plugin disable matsen-agents
-   /plugin enable matsen-agents
+   /plugin disable matsengrp-agents
+   /plugin enable matsengrp-agents
    ```
 
 ## Publishing to GitHub
@@ -84,7 +84,7 @@ If you skip this, the plugin will still work but notifications will be silently 
 
 3. **Test locally:**
    ```bash
-   /plugin reload matsen-agents
+   /plugin reload matsengrp-agents
    ```
 
 4. **Commit and push:**
@@ -127,15 +127,15 @@ claude --debug
 ### Agent not appearing
 - Verify agent markdown file is in `agents/` directory
 - Check that plugin is enabled: `/plugin list`
-- Try reloading: `/plugin reload matsen-agents`
+- Try reloading: `/plugin reload matsengrp-agents`
 
 ### Updates not reflecting
 ```bash
 # Reload the plugin
-/plugin reload matsen-agents
+/plugin reload matsengrp-agents
 
 # Or reinstall
-/plugin remove matsen-agents
+/plugin remove matsengrp-agents
 /plugin add https://github.com/matsengrp/plugins
 ```
 

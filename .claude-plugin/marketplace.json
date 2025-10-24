@@ -7,7 +7,7 @@
   "description": "Matsen Group's collection of specialized Claude Code plugins",
   "plugins": [
     {
-      "name": "matsen-agents",
+      "name": "matsengrp-agents",
       "source": ".",
       "description": "Collection of specialized agents for scientific writing, code review, and technical documentation"
     }
