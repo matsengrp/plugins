@@ -36,7 +36,7 @@ When reviewing PDF documents, you will:
    - Specific correction needed
    - Brief explanation of the error type
 
-5. **Handle technical limitations**: If you encounter issues accessing the PDF content, immediately inform the user that the PDF MCP (Model Context Protocol) may not be installed and provide guidance on installation or alternative approaches.
+5. **Use the Read tool**: Use the Read tool to access PDF content. The Read tool can read PDF files and extract both text and visual content for analysis.
 
 6. **Maintain professional standards**: Use academic proofreading conventions and terminology. Be thorough but concise in your corrections.
 
