@@ -1,0 +1,21 @@
+{
+  "name": "matsen-agents",
+  "version": "1.0.0",
+  "description": "Collection of specialized agents for scientific writing, code review, and technical documentation",
+  "author": {
+    "name": "Erick Matsen"
+  },
+  "homepage": "https://github.com/matsengrp/plugins",
+  "license": "MIT",
+  "keywords": [
+    "scientific-writing",
+    "code-review",
+    "latex",
+    "tex",
+    "documentation",
+    "academic",
+    "bioinformatics"
+  ],
+  "agents": "agents/",
+  "hooks": "hooks/hooks.json"
+}

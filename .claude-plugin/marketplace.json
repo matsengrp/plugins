@@ -1,0 +1,15 @@
+{
+  "name": "matsengrp-marketplace",
+  "owner": {
+    "name": "Matsen Group",
+    "url": "https://github.com/matsengrp"
+  },
+  "description": "Matsen Group's collection of specialized Claude Code plugins",
+  "plugins": [
+    {
+      "name": "matsen-agents",
+      "source": ".",
+      "description": "Collection of specialized agents for scientific writing, code review, and technical documentation"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Notification": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "terminal-notifier -title \"🔔 Claude Code\" -message \"Claude needs your input\" -sound default"
+        }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "terminal-notifier -title \"✅ Claude Code\" -message \"Task completed\" -sound default"
+        }
+      ]
+    }
+  ]
+}
