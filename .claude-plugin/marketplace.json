@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "matsengrp-agents",
-      "source": ".",
+      "source": "./",
       "description": "Collection of specialized agents for scientific writing, code review, and technical documentation"
     }
   ]
