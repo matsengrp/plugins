@@ -86,7 +86,9 @@ Once installed, verify it's loaded:
 /plugin remove matsengrp-agents      # Uninstall
 ```
 
-For more information about plugins, see the [official Claude Code plugins documentation](https://docs.claude.com/en/docs/claude-code/plugins.md).
+For more information about plugins:
+- [Official Claude Code plugins documentation](https://docs.claude.com/en/docs/claude-code/plugins.md)
+- [Video overview of Claude Code plugins](https://www.youtube.com/watch?v=-KusSduAP1A)
 
 ### Local Development
 ```bash
