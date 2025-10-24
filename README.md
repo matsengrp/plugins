@@ -62,39 +62,21 @@ Notifications are automatically enabled when you install the plugin (if `termina
 
 ### Quick Start
 
-Install the plugin directly from GitHub:
-```bash
-/plugin add matsengrp/plugins
-```
-
-Or using the full URL:
-```bash
-/plugin add https://github.com/matsengrp/plugins
-```
-
-Once installed, verify it's loaded:
-```bash
-/plugin list
-```
-
-### Managing Plugins
+To install and manage plugins, use the `/plugin` command which opens an interactive menu:
 
 ```bash
-/plugin enable matsengrp-agents      # Enable the plugin
-/plugin disable matsengrp-agents     # Disable when not needed
-/plugin reload matsengrp-agents      # Reload after updates
-/plugin remove matsengrp-agents      # Uninstall
+/plugin
 ```
+
+This will present you with options to:
+- Add a plugin (enter `matsengrp/plugins` or `https://github.com/matsengrp/plugins` when prompted)
+- Enable/disable installed plugins
+- Reload plugins after updates
+- Remove plugins
 
 For more information about plugins:
 - [Official Claude Code plugins documentation](https://docs.claude.com/en/docs/claude-code/plugins.md)
 - [Video overview of Claude Code plugins](https://www.youtube.com/watch?v=-KusSduAP1A)
-
-### Local Development
-```bash
-cd /Users/matsen/re/plugins
-/plugin add .
-```
 
 ## Usage
 

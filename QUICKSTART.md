@@ -18,16 +18,14 @@ If you skip this, the plugin will still work but notifications will be silently 
 
 ## Testing Your Plugin Locally
 
-1. **Install the plugin locally:**
+1. **Open the plugin menu:**
    ```bash
-   cd /Users/matsen/re/plugins
-   /plugin add .
+   /plugin
    ```
 
-2. **List installed plugins:**
-   ```bash
-   /plugin list
-   ```
+2. **Add the local plugin:**
+   - Select "Add a plugin"
+   - Enter the path: `/Users/matsen/re/plugins`
 
 3. **Test an agent:**
    Create a test file and ask Claude to use one of the agents. For example:
@@ -37,11 +35,8 @@ If you skip this, the plugin will still work but notifications will be silently 
    # Then ask Claude: "Can you review this tex file with the scientific-tex-editor?"
    ```
 
-4. **Enable/disable the plugin:**
-   ```bash
-   /plugin disable matsengrp-agents
-   /plugin enable matsengrp-agents
-   ```
+4. **Manage the plugin:**
+   Use `/plugin` to enable, disable, reload, or remove the plugin as needed.
 
 ## Publishing to GitHub
 
@@ -65,9 +60,9 @@ If you skip this, the plugin will still work but notifications will be silently 
    ```
 
 4. **Install from GitHub:**
-   ```bash
-   /plugin add https://github.com/matsengrp/plugins
-   ```
+   - Run `/plugin` to open the menu
+   - Select "Add a plugin"
+   - Enter: `matsengrp/plugins` or `https://github.com/matsengrp/plugins`
 
 ## Adding New Agents
 
@@ -83,9 +78,8 @@ If you skip this, the plugin will still work but notifications will be silently 
    - Specify tools the agent can use
 
 3. **Test locally:**
-   ```bash
-   /plugin reload matsengrp-agents
-   ```
+   - Run `/plugin` and select "Reload plugin"
+   - Choose `matsengrp-agents` from the list
 
 4. **Commit and push:**
    ```bash
@@ -116,28 +110,18 @@ plugins/
 ## Troubleshooting
 
 ### Plugin not loading
-```bash
-# Run with debug flag
-claude --debug
-
-# Check plugin status
-/plugin list
-```
+- Run with debug flag: `claude --debug`
+- Check plugin status: Run `/plugin` and view installed plugins
 
 ### Agent not appearing
 - Verify agent markdown file is in `agents/` directory
-- Check that plugin is enabled: `/plugin list`
-- Try reloading: `/plugin reload matsengrp-agents`
+- Check that plugin is enabled: Run `/plugin` and check the status
+- Try reloading: Run `/plugin`, select "Reload plugin", choose `matsengrp-agents`
 
 ### Updates not reflecting
-```bash
-# Reload the plugin
-/plugin reload matsengrp-agents
-
-# Or reinstall
-/plugin remove matsengrp-agents
-/plugin add https://github.com/matsengrp/plugins
-```
+- Run `/plugin`
+- Select "Reload plugin" and choose `matsengrp-agents`
+- Or remove and reinstall the plugin using the menu
 
 ### Notifications not working
 - Verify `terminal-notifier` is installed: `which terminal-notifier`
